@@ -1,0 +1,55 @@
+html,
+body,
+.el-container {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+
+.el-header {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: left;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.el-aside {
+    /* background-color: #D3DCE6; */
+    /* color: #333; */
+    text-align: center;
+    line-height: 200px;
+}
+
+.el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+}
+
+.el-table {
+    font-size: 12px;
+}
+
+
+.el-breadcrumb {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.el-card {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15) !important;
+}

@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  compose-ordermanagement-vue:
+    build: .
+    restart: always
+    volumes:
+      - "./nginx.conf:/etc/nginx/nginx.conf"
+    image: ordermanagement-vue:1.0
+    ports:
+      - "8080:8080"
+    container_name: "ordermanagement-vue"
+    networks:
+      - app_net
+networks:
+  app_net:
